@@ -26,7 +26,7 @@ function Login() {
   const navigate = useNavigate();
   const onSubmit = async (value, reset) => {
     try {
-      const response = await axios.post("http://localhost:8000/login", value);
+      const response = await axios.post("https://item-catalogue.herokuapp.com/login", value);
       if (response.data) {
         toast.success("Logged in Successfully");
         await localStorage.setItem("user-token", response.data);
