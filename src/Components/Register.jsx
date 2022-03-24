@@ -27,7 +27,7 @@ const validationSchema = yup.object({
 function Register() {
   const onSubmit = async (value, reset) => {
     try {
-      await axios.post("http://localhost:8000/register", {
+      await axios.post("https://item-catalogue.herokuapp.com/register", {
         name: value.name,
         email: value.email,
         password: value.password,
