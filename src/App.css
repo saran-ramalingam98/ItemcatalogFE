@@ -1,0 +1,58 @@
+/* -----------------Header Style--------------- */
+.Appfont {
+  font-family: "Times New Roman", Times, serif;
+}
+.head-title {
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+.menu-icon {
+  width: 27px;
+}
+.card-icon {
+  width: 25px;
+  height: 20px;
+  margin-bottom: 7px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 576px) {
+  .card-pro {
+    margin-left: 25px;
+  }
+}
+/* -----------------Banner Style--------------- */
+.head {
+  font-size: 39px;
+}
+
+/* -----------------Main Style--------------- */
+.sale {
+  top: 9px;
+  right: 10px;
+}
+.star-color {
+  color: gold;
+}
+.cart-div {
+  margin-top: 5rem;
+  min-height: 100px;
+}
+.cartButton {
+  width: 27px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.spanQty {
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.bg-image {
+  background: rgb(201, 251, 63);
+  background-image: radial-gradient(circle, #000000 0%, #000000 100%);
+}
+.bg-image1 {
+  background-color: #ffffff;
+}
